@@ -1,3 +1,44 @@
-Link para dowload do Git:
-https://git-scm.com/downloads
+Conceitos
+
+O que é o GIT?
+-É um sistema de versionamento de código 
+
+O que é o GitHub?
+-É uma plataforma responsável por hospedar esses arquivos gerados no git
+O que são os Repositórios?
+-São os diretórios do git (pastas), onde são armazenados os projetos.
+
+O que são as Brach’s?
+-São ramificações no seu projeto, onde podem ser feitas modificações. 
+
+O que são os Commit’s?
+-São as alterações postadas no seu projeto.
+
+O que é o Merge?
+-É a junção da brach alternativa com a brach principal.
+
+O que é o Remote?
+-O remote é responsável por fazer a ligação do repositório da sua máquina com a plataforma do GitHub. Ex: quando se cria um remote, pega-se o link do repositório no GitHub para fazer a ligação da máquina com o guithub.
+
+O que é o Push?
+-É o responsável por colocar o commit feito na sua máquina no remote.
+
+O que é o Pull?
+-É o contrário do push. O pull pega o que tá no gitHub e empurra para a sua máquina.
+
+O que significa SHA?
+-A sigla SHA significa Secure Hash Algorithm (algoritmo de Hash Seguro), é um conjunto de funções hash ccriptográficas projetadas pela NSA (Agência de Segurança Nacional dos EUA).
+
+-A encriptação é responsável por gerar um conjunto de caracteres identificador de 40 dígitos. 
+
+Chave SSH
+-É uma forma de estabelecer uma conexão segura/incriptada entre duas máquinas. Serve para autenticar um usuário remoto ao servidor.
+-Existem duas chaves: 1 chave pública e 1 chave privada; onde a chave privada consegue abrir a chave pública. 
+
+Objetos internos do Git
+-Blob: é uma coleção de dados binários. Geralmente são objetos de imagem, áudio ou outro objeto multimedia. A blob guarda apenas o SHA e não o nome do arquivo. 
+
+-Tree: é responsável por montar toda a estrutura de armazenamento dos arquivos, ou seja, diferente da blob, ela guarda o nome do arquivo.
+
+-Commit: é um sistema distribuído e seguro, que realiza um conjunto de mudanças provisórias e/ou permanentes, marcando o final de uma transação e dando durabilidade às transações ACID. 
 
