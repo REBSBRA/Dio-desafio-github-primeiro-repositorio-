@@ -1,4 +1,4 @@
-## Desafio de Projeto sobre Git/GitHub da DIO
+# Desafio de Projeto sobre Git/GitHub da DIO
 Repositório para o Desafio do Projeto
 
 ## Links Relacionados
@@ -9,14 +9,14 @@ Repositório para o Desafio do Projeto
 
 [Adicionar imagem no GitHub](https://www.youtube.com/watch?v=oMFiGEZ6UlQ)
 
-📌Criando um novo projeto
+# Criando um novo projeto
 
 1. Crie uma nova pasta no seu PC 
 2. Abra o VSCode na pasta criada
 3. Crie novo arquivo `README.md`
 5. Dê nome ao seu arquivo e salve
 
-Usando o Git
+#### Usando o Git
 
 - Abra o `git bash` que foi instalado
 - `git init`para que o repositório seja inicializado
@@ -24,7 +24,7 @@ Usando o Git
 - `git commit -m "nome do arquivo"` para que o commit vá para o repositório
 - `git brach -M "main"` esse comando altera o nome da brach principal master > main  
 
-📌Criando um repositório no GitHub
+# Criando um repositório no GitHub
 
 - Após criar sua conta na plataforma, você criará um `novo repositório`
 
@@ -44,7 +44,7 @@ Agora temos o repositório local conectado ao repositório do GitHub, contudo o 
 
 Pronto, ao recarregar a página, veremos o nosso arquivo na plataforma do GitHub 
 
-💡 Adicionando e alterando arquivos
+### Adicionando e alterando arquivos
 
 - Adicione uma frase no arquivo criado 
 - Para criar um novo arquivo `README.md`, escreva por exemplo, `esse é o arquivo onde irei desenvolver o projeto x`
@@ -52,7 +52,7 @@ Pronto, ao recarregar a página, veremos o nosso arquivo na plataforma do GitHub
 
 Obs: para alterarmos algo no nosso repositório do GitHub, precisamos dar o comando `push`, ou seja `git push origin main`
 
-💡 Branch
+### Branch
 
 Como criamos uma Branch?????
 
@@ -64,13 +64,13 @@ Como criamos uma Branch?????
 - Commita com o `git commit -m "novo botão"`
 - Para enviar o arquivo da sua máquina para o GuitHub, o comando executado será `git push origin main.` O `main` é referente a brach principal. EX: `git push origin botão`
 
-💡 Merge
+### Merge
 
 - Agora vamos até nossa Branch principal. Utilize o comando `git checkout main` lá faremos o merge com a branch, ou seja o `botão` que criamos, através do `git merge botao`
   - Pronto, agora as alterações que estavam na branch `botão` está junto da `main`
   - Agora vamos utilizar o comando `git push origin main` para empurrar tudo para o GitHub
 
-💡 Clone
+### Clone
 
 Como se pode baixar um código????
 
@@ -82,13 +82,13 @@ Como se pode baixar um código????
 - Use o comando `git clone e o link https` do repositório que você quer clonar, para puxar o projeto para a sua máquina
 - Prontinho, o projeto será clonado
 
-💡 Pull
+### Pull
 
 - Esse comando `Pull` nos ajuda a puxar as alterações feitas no repositório GitHub para o seu repositório local. Ou seja, se você fizer uma alteração no seu repositório do GitHub, utilizando o comando `git pull` conseguirá passar tudo para a sua máquina. 
 
-📌 Comandos extras
+# Comandos extras
 
-⭐ Criando um repositótio no terminal
+### Criando um repositótio no terminal
 
 1. Faça uma pasta na sua máquina para salvar o seu repositório 
 2. `git bash`
@@ -100,7 +100,7 @@ Como se pode baixar um código????
 8. `ls -a`
 9. Pronto, seu repositório foi criado
 
-Legenda
+#### Legenda
 
 - O comando `ls` lista 
 - `Ctrl l` limpa a página no git bash
@@ -109,7 +109,7 @@ Legenda
 - `git init` para iniciar o git na pasta
 - `ls -a` mostra os arquivos que estão ocultos
 
-⭐ Criando o primeiro arquivo dentro de outra pasta
+### Criando o primeiro arquivo dentro de outra pasta
 
 Se for a primeira vez que está criando algum conteúdo no Git, ele vai te pedir algumas informações, para isso siga esses passos:
 
@@ -118,7 +118,7 @@ Se for a primeira vez que está criando algum conteúdo no Git, ele vai te pedir
 3. `git config -- global user.name "seu username"`
 4. Pronto, sua configuração inicial foi realizada
 
-⭐ Movendo uma pasta para a outra
+### Movendo uma pasta para a outra
 
 1. `ls`
 2. `git status`
@@ -130,7 +130,7 @@ Se for a primeira vez que está criando algum conteúdo no Git, ele vai te pedir
 
 Obs: O git vai passar a seguinte mensagem "sua pasta foi deletada", porém, a pasta foi apenas removida para dentro de outra pasta. O sistema não entende, por isso passa a mensagem como se a mesma tivesse sido deletada. 
 
-⭐ Criando uma pasta README
+### Criando uma pasta README
 
 1. `echo > Readme.md`
 2. `ls`
@@ -139,7 +139,7 @@ Obs: O git vai passar a seguinte mensagem "sua pasta foi deletada", porém, a pa
 5. `git commit -m "adiciona index"`
 6. Pasta criada
 
-⭐ Para adicionar um repositório
+### Para adicionar um repositório
 
 1. Vá até o GitHub e crie um repositório
 2. Copie o `https` do repositório 
@@ -150,7 +150,7 @@ Obs: O git vai passar a seguinte mensagem "sua pasta foi deletada", porém, a pa
 7. `username e password`
 8. Prontinho
 
-⭐ Git Clone
+### Git Clone
 
 1. Crie um repositório no GitHub
 2. Copie o `https`do seu repositório
@@ -160,7 +160,7 @@ Obs: O git vai passar a seguinte mensagem "sua pasta foi deletada", porém, a pa
 6. `git status`
 7. Prontinho 
 
-📌Principais comandos do Git
+# Principais comandos do Git
 
 - `git config --list` = Lista as configurações do git; estando dentro do repositório, lista mais itens
 - `git config --global user .name "Meu nome"` = Define o nome do usuário para o git
@@ -184,7 +184,7 @@ Obs: O git vai passar a seguinte mensagem "sua pasta foi deletada", porém, a pa
 - `info git` = obtém a documentação do git
 - `man git` = obtém o manual do git 
 
-🎯 Opções de comandos com o add
+### Opções de comandos com o add
 
 - `git-add` = É o mesmo comando do git add (o comando git-addnão irá adicionar arquivos ignorados por padrão a menos que seja utilizado o parâmetro-f)
 - `git add -a` = Adiciona todos os arquivos que foram modificados
